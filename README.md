@@ -1,7 +1,7 @@
 # serverless-final-project
 ## Init
 (python 3.10.12)
-- pyhton3 -m venv env
+- python3 -m venv env
 - source env/bin/activate
 - pip install -r requirements.txt
 
@@ -16,3 +16,9 @@ to
 ```python
 _gpu = torch.device("cpu")
 ```
+
+`serverless s3 start`
+
+Puis dans un autre terminal
+
+`npm run dev`
