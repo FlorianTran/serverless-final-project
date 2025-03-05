@@ -23,7 +23,12 @@ s3client = boto3.client('s3', endpoint_url="http://localhost:4569", aws_secret_a
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return """
+<form action="/voice" method="POST">
+    <input type="text" name="sentence" required>
+    <button type="submit">Sumbit</button>
+</form>
+"""
 
 @app.route("/voice", methods=["POST"])
 def voice_post():
