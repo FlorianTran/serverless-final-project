@@ -22,3 +22,10 @@ _gpu = torch.device("cpu")
 Puis dans un autre terminal
 
 `npm run dev`
+
+## WIP ^^^^^^^^^^^^^^^^^^^^^
+
+pour tester le script de creation de tts avec modele d'ia
+```bash
+python script.py --text "bonjour le monde, est-ce que vous aller bien"
+```
