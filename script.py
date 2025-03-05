@@ -17,7 +17,7 @@ torch.serialization.add_safe_globals([Dictionary])
 
 def text_to_speech(text, output_mp3):
     """Generate an MP3 file from text using gTTS."""
-    tts = gTTS(text=text, lang="en")
+    tts = gTTS(text=text, lang="fr")
     tts.save(output_mp3)
     print(f"TTS audio saved to: {output_mp3}")
 
